@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.fnt-H{
+    font-family: 'Playfair Display', serif;
+}
+
+.revRow > div:nth-child(2n){
+    flex-direction: row-reverse !important;
+}
+
+.hmA-bgB{
+    background: url("https://cdn.pixabay.com/photo/2014/08/19/18/32/justitia-421805_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.example-overlay {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+    color: blue;
+    pointer-events: none;
+    position: absolute;
+    width: max-content;
+    background-color: transparent;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+}
+
+.instagram{
+    display: inline-block;
+
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
