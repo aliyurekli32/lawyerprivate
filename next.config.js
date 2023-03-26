@@ -14,7 +14,7 @@ module.exports = withPlugins(
         path: '',
       },
       basePath: "/lawyerprivate",
-      assetPrefix: "/lawyerprivate"
+      assetPrefix: "/lawyerprivate/"
     }]
   );
 // module.exports = withLinaria({})
