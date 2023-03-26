@@ -13,6 +13,8 @@ module.exports = withPlugins(
         loader: 'akamai',
         path: '',
       },
+      basePath: "/lawyerprivate",
+      assetPrefix: "/lawyerprivate"
     }]
   );
 // module.exports = withLinaria({})
