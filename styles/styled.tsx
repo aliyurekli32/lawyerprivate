@@ -483,8 +483,7 @@ export const comments= css`
 }
 @media screen and (max-width: 600px) {
   .pic-ctn{
-	width: 50vw;
-	height: 150px;
+	animation: display none;
   }
 }
 
