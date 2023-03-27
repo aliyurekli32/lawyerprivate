@@ -13,7 +13,7 @@ export const carouselA= css`
 	
 	
 .carousel {
-	@apply w-[600px] h-[600px] max-md:w-[400px] max-md:h-[400px] ;
+	@apply w-[600px] h-[600px] max-md:w-[400px] max-md:h-[400px] max-sm:w-[300px] max-sm:h-[300px];
 	
 	overflow: hidden;
 	text-align: center;
@@ -508,7 +508,7 @@ export const comments= css`
 	.pic-ctn > .img1 {
   position: absolute;
   top: 0;
-  left: calc(50% - 200px);
+  left: calc(50% - 20px);
   opacity: 0;
   animation: nox 50s infinite !important;
 }
