@@ -508,7 +508,7 @@ export const comments= css`
 	.pic-ctn > .img1 {
   position: absolute;
   top: 0;
-  left: calc(50% - 100px);
+  left: calc(50%);
   opacity: 0;
   animation: nox 50s infinite !important;
 }

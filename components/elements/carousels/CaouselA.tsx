@@ -115,7 +115,7 @@ function CarouselA() {
     </div> */}
     <div className="carousel-container">
       <h2 className="text-6xl">Çözüm Ortaklarımız</h2>
-      <ul className="carousel my-carousel carousel--thumb">
+      <ul className="carousel my-carousel carousel--thumb mx-auto">
         <input className="carousel__activator" type="radio" id="K" name="thumb" defaultChecked={true} />
         <input className="carousel__activator" type="radio" id="L" name="thumb" />
         <input className="carousel__activator" type="radio" id="M" name="thumb" />
