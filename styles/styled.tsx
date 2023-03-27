@@ -344,6 +344,7 @@ export const carouselA= css`
 	}
 }
 .carousel__slide {
+	margin: 0px auto;
 	height: 100%;
 	position: absolute;
 	overflow-y: auto;
