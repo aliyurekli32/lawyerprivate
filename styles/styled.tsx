@@ -452,8 +452,28 @@ export const comments= css`
   width: 100vw;
   height: 200px;
 }
-
-
+@keyframes nox {
+	0% {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+}
 
 @keyframes display {
   0% {
@@ -486,7 +506,11 @@ export const comments= css`
 }
 @media screen and (max-width: 600px) {
 	.pic-ctn > .img1 {
-  animation: none;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 200px);
+  opacity: 0;
+  animation: nox 50s infinite !important;
 }
 }
 
