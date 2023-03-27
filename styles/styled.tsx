@@ -448,16 +448,9 @@ h3 {
 `;
 
 export const comments= css`
-.pic-ctn {
-  width: 100vw;
-  height: 200px;
-}
 
-@media screen and (max-width: 600px) {
-  .pic-ctn{
-	width: 50vw;
-  }
-}
+
+
 
 @keyframes display {
   0% {
@@ -487,6 +480,12 @@ export const comments= css`
   width: 100vw;
   height: 300px;
   margin-top: 15vh;
+}
+@media screen and (max-width: 600px) {
+  .pic-ctn{
+	width: 50vw;
+	height: 150px;
+  }
 }
 
 .pic-ctn > .img1 {
