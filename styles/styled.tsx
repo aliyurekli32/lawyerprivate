@@ -453,6 +453,12 @@ export const comments= css`
   height: 200px;
 }
 
+@media screen and (max-width: 600px) {
+  .pic-ctn{
+	width: 50vw;
+  }
+}
+
 @keyframes display {
   0% {
     transform: translateX(200px);
