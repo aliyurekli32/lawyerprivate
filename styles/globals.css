@@ -25,7 +25,7 @@ html,body{
 }
 
 .hmA-bgB{
-    background: url("https://cdn.pixabay.com/photo/2014/08/19/18/32/justitia-421805_960_720.jpg");
+    background: url("../images/Background.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
