@@ -13,7 +13,7 @@ const Layout = ({children}:PropChild) => {
   
 
   return <div className="hmA-bgB">
-    <div className="bg-[rgba(0,0,0,0.6)]">
+    <div className="bg-[rgba(0,0,0,0.2)]">
     <NavbarT/>
   <Navbar />
   <div className="fixed text-5xl text-green-500 cursor-pointer active:scale-90 left-2 top-[50%] transition duration-200 ease-in-out z-50"><FaWhatsappSquare/></div>
