@@ -448,7 +448,10 @@ h3 {
 `;
 
 export const comments= css`
-
+.pic-ctn {
+  width: 100vw;
+  height: 200px;
+}
 
 
 
