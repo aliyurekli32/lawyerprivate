@@ -482,9 +482,9 @@ export const comments= css`
   margin-top: 15vh;
 }
 @media screen and (max-width: 600px) {
-  .pic-ctn{
-	animation: display none;
-  }
+	.pic-ctn > .img1 {
+  animation: none;
+}
 }
 
 .pic-ctn > .img1 {
