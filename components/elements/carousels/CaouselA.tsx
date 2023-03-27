@@ -113,7 +113,7 @@ function CarouselA() {
         </div>
       </div>
     </div> */}
-    <div className="carousel-container">
+    <div className="carousel-container m-auto">
       <h2 className="text-6xl">Çözüm Ortaklarımız</h2>
       <ul className="carousel my-carousel carousel--thumb">
         <input className="carousel__activator" type="radio" id="K" name="thumb" defaultChecked={true} />
