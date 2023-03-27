@@ -344,7 +344,7 @@ export const carouselA= css`
 	}
 }
 .carousel__slide {
-	margin: 0px auto;
+
 	height: 100%;
 	position: absolute;
 	overflow-y: auto;
@@ -450,7 +450,7 @@ h3 {
 
 export const comments= css`
 .pic-ctn {
-  width: 100vw;
+  width: 90vw;
   height: 200px;
 }
 @keyframes nox {
@@ -501,7 +501,7 @@ export const comments= css`
 
 .pic-ctn {
   position: relative;
-  width: 100vw;
+  width: 90vw;
   height: 300px;
   margin-top: 15vh;
 }
