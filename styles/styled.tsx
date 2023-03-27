@@ -6,8 +6,8 @@ import  {styled}  from "@linaria/react";
 
 
 export const carouselA= css`
+    margin: 0px auto 24px auto;
 
-	margin-bottom: 24px;
 	text-align: center;
 	color: #fff;
 	
