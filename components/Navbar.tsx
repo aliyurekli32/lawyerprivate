@@ -29,7 +29,7 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a onClick={()=>{changeNum(1)}} > <img className="w-24 h-24" src="https://github.com/aliyurekli32/lawyerprivate/blob/main/images/Logo.png"  alt="" /> </a>
+    <a onClick={()=>{changeNum(1)}} > <img className="w-24 h-24" src="https://github.com/aliyurekli32/lawyerprivate/blob/d5fe82ac89e63642ae2c6ee8b150fd2fb65ba103/images/Logo.png"  alt="" /> </a>
   </div>
   <div className="navbar-center text-2xl hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
