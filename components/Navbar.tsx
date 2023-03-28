@@ -29,7 +29,10 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a onClick={()=>{changeNum(1)}} > <img className="w-24 h-24" src="https://github.com/aliyurekli32/lawyerprivate/blob/d5fe82ac89e63642ae2c6ee8b150fd2fb65ba103/images/Logo.png"  alt="" /> </a>
+    {/* <a href="https://imgbox.com/eWH1MKej" target="_blank"><img src="https://thumbs2.imgbox.com/52/2f/eWH1MKej_t.png" alt="image host"/></a> */}
+    {/* https://imgbox.com/eWH1MKej */}
+    {/* [URL=https://imgbox.com/eWH1MKej][IMG]https://thumbs2.imgbox.com/52/2f/eWH1MKej_t.png[/IMG][/URL] */}
+    <a onClick={()=>{changeNum(1)}} > <img className="w-24 h-24" src="https://thumbs2.imgbox.com/52/2f/eWH1MKej_t.png"  alt="" /> </a>
   </div>
   <div className="navbar-center text-2xl hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
